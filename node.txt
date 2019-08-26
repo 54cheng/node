@@ -1,0 +1,4 @@
+docker 中 --link
+
+docker run --rm -it --name centosTest --link web:web centos
+  cur web:8080(web容器的端口，访问方式)
